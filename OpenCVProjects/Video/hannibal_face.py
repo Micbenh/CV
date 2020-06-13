@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-face_cascad = cv2.CascadeClassifier(r'C:\Users\t-mibenh\Desktop\studies\python\practice\CV\OpenCVProjects\Basics\im_env\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml')
+face_cascad = cv2.CascadeClassifier(r'')
 
 #mask init
-face_mask = cv2.imread(r'C:\Users\t-mibenh\Desktop\studies\python\practice\CV\OpenCVProjects\Video\images\hannibal.png')
+face_mask = cv2.imread(r'')
 mask_h, mask_w = face_mask.shape[:2]
 
 if face_cascad.empty():
