@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 import cv2
 
-shreklogopath = r'C:\Users\t-mibenh\Desktop\studies\python\practice\imagemanip\Manipulator\images\pic.PNG'
+shreklogopath = r''
 
 def viz_image():
     img = cv2.imread(shreklogopath)

@@ -33,7 +33,6 @@ while True:
         #convert mask to gray
         gray_mask = cv2.cvtColor(face_mask_small, cv2.COLOR_BGR2GRAY)
         ret, mask = cv2.threshold(gray_mask, 190, 255, cv2.THRESH_BINARY_INV)
-
         mask_inv = cv2.bitwise_not(mask)
 
         try:
